@@ -1,7 +1,7 @@
 
 # Case: Classification
 
-## Etapas:
+## Desafios a serem realizados -  Etapas:
 
 - Crie um arquivo `requirements.txt` com as bibliotecas necessárias para execução deste projeto;
 - Crie um ambiente virtual (e.g. `case_classification`);
