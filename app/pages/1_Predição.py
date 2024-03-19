@@ -9,6 +9,15 @@ st.set_page_config(
 
 st.title('Previsão de Churn')
 
-st.markdown("Métricas Necessárias para a predição:")
+st.markdown("Por favor colocar o arquivo csv para a predição")
+
+#--model--#
+with open('models/model.pkl','rb') as model_file:
+    model =  pickle.load(model_file)
+
+data = st.file_uploader()
+
+ 
+
 
 
